@@ -10,6 +10,10 @@ spring:
     name: brewery-config-server
   profiles:
     active: native
+  security:
+    user:
+      name: BreweryConfigUser
+      password: SecretPassword42
   cloud:
     config:
       server:
